@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CLionProjects/acm/hnie/6.9/A.cpp
+bits/stdc++.h
+D:/CLionProjects/acm/hnie/6.9/bits/stdc++.h
+
