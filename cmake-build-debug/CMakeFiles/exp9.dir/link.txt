@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\exp9.dir/objects.a
-D:\mingw64\bin\ar.exe cr CMakeFiles\exp9.dir/objects.a @CMakeFiles\exp9.dir\objects1.rsp
-D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\exp9.dir/objects.a -Wl,--no-whole-archive -o exp9.exe -Wl,--out-implib,libexp9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\exp9.dir\linklibs.rsp
