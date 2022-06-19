@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TT.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\TT.dir/objects.a @CMakeFiles\TT.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TT.dir/objects.a -Wl,--no-whole-archive -o TT.exe -Wl,--out-implib,libTT.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TT.dir\linklibs.rsp
