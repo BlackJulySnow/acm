@@ -114,7 +114,7 @@ void Destroy(Node * &g){
 }
 int main() {
     Node * g;
-    char * str = "(A,(a1,d,(d,(#))),9,(t,(X,Y,Z)))";
+    char * str = "(A,(a1,d,(d,(#))),9,(sum,(X,Y,Z)))";
     g = CreateGL(str);
     printf("�����g:");DispGL(g);printf("\n");
     printf("�����g�ĳ���:%d\n", GLLength(g));

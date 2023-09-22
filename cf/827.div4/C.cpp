@@ -7,6 +7,7 @@ int main(){
     int t;
     cin >> t;
     while (t--){
+        int tot = 0;
         char ans = '\0';
         for(int i = 0;i < 8;i++){
             cin >> s[i];
@@ -18,8 +19,10 @@ int main(){
                 if(s[i][0] != s[i][j])
                     flag = false;
             }
-            if(flag)
+            if(flag) {
                 ans = s[i][0];
+                tot++;
+            }
         }
         for(int i = 0;i < 8;i++){
             if(s[0][i] == '.')
@@ -29,13 +32,17 @@ int main(){
                 if(s[0][i] != s[j][i])
                     flag = false;
             }
-            if(flag)
+            if(flag) {
                 ans = s[0][i];
+                tot++;
+            }
         }
-        if(ans == '\0'){
+        if(tot == 1){
+            cout << ans << endl;
+        }else{
 
         }
-        cout << ans << endl;
+
     }
     
     
